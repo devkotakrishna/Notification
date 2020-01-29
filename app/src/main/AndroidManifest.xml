@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <service android:name=".service.myservice"
+            android:enabled="true"
+            android:exported="false"></service>
         <activity android:name=".ServicesActivity"></activity>
         <activity android:name=".BroadCastActivity" />
         <activity android:name=".MainActivity">
